@@ -61,7 +61,7 @@ public class ConsolaAdministrador {
                     System.out.println("Has seleccionado la Opción 4.");
                     System.out.print("Por favor, ingresa el nombre de la pieza a consultar: ");
                     String nombrePiezaConsulta = scanner.nextLine();
-                    Pieza piezaConsulta = administrador.consultarPieza(nombrePiezaConsulta);
+                    Pieza piezaConsulta = administrador.ConsultarPieza(nombrePiezaConsulta);
                     if (piezaConsulta != null) {
                         System.out.println("Información de la pieza:");
                         System.out.println("Título: " + piezaConsulta.getTituloObra());

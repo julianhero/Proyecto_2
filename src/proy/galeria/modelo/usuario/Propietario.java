@@ -1,6 +1,9 @@
 package proy.galeria.modelo.usuario;
 
-public class Propietario extends Usuario {
+import java.util.ArrayList;
+
+public class Propietario extends Usuario 
+{
     private int numeroTelefono;
     private String correo;
     private ArrayList<String> piezasQuePosee;

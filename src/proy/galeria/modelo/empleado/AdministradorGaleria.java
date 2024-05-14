@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import proy.galeria.modelo.Inventario;
 import proy.galeria.modelo.Pieza;
 import proy.galeria.modelo.plataforma.Plataforma;
+import proy.galeria.modelo.usuario.Comprador;
+import proy.galeria.modelo.usuario.Usuario;
 
 public class AdministradorGaleria extends Empleado {
     private ArrayList<Pieza> inventario = new ArrayList<>();
@@ -42,7 +44,7 @@ public class AdministradorGaleria extends Empleado {
 
     public void registrarPiezaInventario(Pieza pieza) {
         inventario.add(pieza);
-        inventarioGaleria.agregarPiezainventario(pieza);
+        inventarioGaleria.agregarPiezaInventario(pieza);
     }
 
     public void confirmarVenta(Comprador comprador, Pieza pieza, String fecha) throws Exception {

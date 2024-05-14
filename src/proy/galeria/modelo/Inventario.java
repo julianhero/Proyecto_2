@@ -9,7 +9,7 @@ public class Inventario {
     private ArrayList<Pieza> inventarioPiezas;
     private HashMap<String, ArrayList<Pieza>> inventarioArtistas;
 
-    private Inventario() {
+    public Inventario() {
         inventarioPiezas = new ArrayList<>();
         inventarioArtistas = new HashMap<>();
     }

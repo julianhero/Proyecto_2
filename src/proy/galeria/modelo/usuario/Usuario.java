@@ -1,5 +1,5 @@
 package proy.galeria.modelo.usuario;
-
+import proy.galeria.modelo.plataforma.Subasta;
 public class Usuario {
     protected String nombre;
     protected int identificacion;
